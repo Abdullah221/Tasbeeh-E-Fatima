@@ -1,0 +1,65 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;}
+.arabic {
+    font-family: 'Noto Naskh Arabic', serif;
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
+.fc {
+    justify-content: center;
+}
+.fsb {
+    justify-content: space-between;
+}
+.page {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/ramadan-masjid-islamic-shikh.jpg) no-repeat;
+    background-size: cover;
+}
+.innerpage {
+    background-color: rgba(10, 10, 10, 0.8);
+    width: 75%;
+    height: 75%;
+    border: 2px solid;
+    text-align: center;
+    border-radius: 20px;
+}
+.column {
+    flex-direction: column;
+}
+header, footer {
+    background-color: white;
+    display: inline-block;
+    padding: 2% 4%;
+    width: 50%;
+}
+a {
+    color: white;
+}
+.text {
+    font-size: 3vh;
+    color: white;
+}
+.button {
+    padding: 10%;
+    border: none;
+    border-radius: 5px;
+    margin: 2%;
+}
+.buttons {
+    direction: rtl;
+}
+#red {
+    background-color: rgb(222, 167, 167);
+}
+#grey {
+    background-color: rgb(210, 212, 214);
+}
+#green {
+    background-color: greenyellow;
+}
